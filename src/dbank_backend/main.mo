@@ -9,10 +9,10 @@ actor DBank {
   stable var currentValue : Float = 300;
 
   //:= notation reassigns var
-  // currentValue := 300;
+  //currentValue := 300;
 
   stable var startTime = Time.now();
-  // startTime := Time.now();
+  //startTime := Time.now();
 
 
   public func topUp(amount : Float) {
